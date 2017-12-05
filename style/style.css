@@ -1,0 +1,86 @@
+html,
+body,
+#map {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.col {
+    top: 10px;
+    right: 30px;
+    height: 90%;
+    width: 30%;
+    float: right;
+    z-index: 1500;
+    background-repeat: no-repeat;
+    position: absolute;
+    display: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h1 {
+    bottom: 10px;
+    right: 5px;
+    float: right;
+    z-index: 1500;
+    position: absolute;
+    font-family: 'Raleway', sans-serif;
+    font-size: calc(0.5vw + 0.5vh + 1vmin);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+#title {
+    color: #5a7783;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: calc(1.2vw + 1.2vh + 2vmin);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-shadow: 0px 4px 4px 0 rgba(255, 255, 255, 1);
+    text-align: center;
+    vertical-align: middle;
+}
+
+#tempText {
+    color: #b95c2c;
+    font-family: 'Raleway', sans-serif;
+    font-size: calc(1vw + 1vh + 2vmin);
+    font-weight: 400;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+#tempValue {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: calc(3vw + 3vh + 2vmin);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-weight: 900;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+#date {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: calc(1vw + 1vh + 0.5vmin);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-weight: 300;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+}
