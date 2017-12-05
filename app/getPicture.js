@@ -5,7 +5,7 @@ define([
 ) {
     var picture = {
         getPicture: function(location) {
-            $.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?", {
+            $.getJSON("https://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?", {
                     tags: location,
                     tagmode: "any",
                     format: "json"
