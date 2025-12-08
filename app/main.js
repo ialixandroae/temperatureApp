@@ -87,6 +87,6 @@ require([
     temperatureObj.getTemperature(searchRes, lat, long);
   });
 
-  //   temperatureObj.getTemperature('Bucharest');
+  temperatureObj.getTemperature('Bucharest', 44.43, 26.09);
   location.getLocation(mapView, searchWidget);
 });
